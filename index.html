@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://kit.fontawesome.com/7ab6e08b0a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="mainHeader">
+        <i class="fa-brands fa-xl fa-nfc-symbol"></i>
+        <h1 class="logo">Mockly</h1>
+        <ul class="navItems">
+            <li>About</li>
+            <li>Contact</li>
+            <li>Products</li>
+            <li>Careers</li>
+        </ul>
+        <div id="logoutContent" class="logout">
+        <button id="return" class="return"> Logout </button>
+        <h2 class="user" id="user"></h2>
+      </div>
+    </header>
+
+    <div id="loadData" class="loadData">
+        <button class="data"> Load Data </button>
+    </div>
+
+    <div id="mainContainer" class="mainContainer">
+        <div class="content">
+            <h2 class="signInText">Sign In</h2>
+            <div class="buttons">
+                <input id="email" type="text" class="signInMain" placeholder="Enter your username" />
+                <input id="password" type="text" class="signInMain" placeholder="Enter your password" />
+            </div>
+            <button id="submit" class="signIn">Sign In</button>
+        </div>
+    </div>
+    <footer class="mainFooter">
+        <div class="footerContent">
+            <div class="footerText">Copyright Mockly © 2023</div>
+            <div class="socials">
+                <i class="fa-brands social fa-instagram"></i>
+                <i class="fa-brands social fa-linkedin-in"></i>
+                <i class="fa-brands social fa-facebook"></i>
+            </div>
+        </div>
+    </footer>
+
+    <canvas class="background"></canvas>
+    <script src="index.js" async defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+</body>
+
+</html>
